@@ -25,9 +25,9 @@ and demonstrates concepts like loops, conditionals, random number generation, an
 
 
 ## How to run
-1. Run the script: \`python guess_the_number.py\`
-2. Enter your guess when prompted
-3. You have 3 chances to guess the correct number
-4. The game will tell you if your guess is too high or too low
+    •	Run the script: \`python guess_the_number.py\`
+	•	Enter your guess when prompted
+	•	You have 3 chances to guess the correct number
+    •	The game will tell you if your guess is too high or too low
 
 ## Future improvement
