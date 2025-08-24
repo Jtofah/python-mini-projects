@@ -7,12 +7,17 @@ import random
 answer = random.randint(1,20)
 chances = 3
 
-print(f"Welcome to the Number Guessing Game!")
+print("Welcome to the Number Guessing Game!")
 print(f"I'm thinking of a number between 1 and 20. You have {chances} chances to guess it!")
 
 while chances > 0:
     try:
         guess = int(input("guess the number between 1 and 20: "))
+        
+        if guess < 1 or guess > 20:
+            print("Please enter a number between 1 and 20")
+            continue
+        
         # Check the guess against the answer
         if guess < answer:
             result = "Oops!  Your guess was too low." #return a hint  if the guess is low
