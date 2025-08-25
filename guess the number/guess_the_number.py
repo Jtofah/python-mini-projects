@@ -6,6 +6,7 @@ import random
 
 answer = random.randint(1,20)
 chances = 3
+tally = []
 
 print("Welcome to the Number Guessing Game!")
 print(f"I'm thinking of a number between 1 and 20. You have {chances} chances to guess it!")
