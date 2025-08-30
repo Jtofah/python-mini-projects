@@ -17,16 +17,16 @@ rock_name = ["Phase","Anki","Doom", "and the Cosmos", "Rising", "Forever", "thor
 
 #Metal
 metal_adj = ["Slay","Feral","Black","Death","Scream","Hell's","Metal"]
-metal_name = ["Steel", "Spawns", "Chains","Ghouls","Skulls", "Blades", "War", "Beasts", "Void", "Abyss", "Titans","Wolves","Sabbath","Inferno","Cult","Scythe","Reaper"]
+metal_name = ["Steel", "Spawns", "Chains","Ghouls","Skulls", "Blxdes", "War", "Beasts", "Void", "Abyss", "Titans","Wolves","Sabbath","Inferno","Cult","Scythe","Reaper"]
 
 #Pop
 pop_adj = ["Purple","Five","Velvet","Imagine","Juke","Plane","Pay","Dance","The"]
-pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","Outs","Parrots","Fare","Ferry","Hearts","Clouds","Republic","Nation","City"]
+pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","Dixxie","Outs","Parrots","Fare","FeRRies","Hearts","Clouds","Republic","Nation","City"]
 pop_other = ["and the Symphony","and the Stags","and the Fairies","+ the Robots","& the wildlings","X Band"]
 
 #Afrobeat
 afbeat_othr = ["Afri","Black","Ninja","Joy","Vina","Banjo","Bongo","New","Africa","Simba","Sankofa","Asanti"]
-afbeat_name = ["Senku","and the Calabash","Child","Tribe","Spirit","Sun","Band","Seed","Masquerades","Sistas","Bradas","Boiz","Chaskele","Express","Village","Rise","Afronauts","and the Shinobi"]
+afbeat_name = ["Senku","and the Calxbash","Child","Tribe","Spirit","Sun","Band","Seed","Masquerades","Sistas","Bradas","Boiz","Chaskele","Express","Village","Rise","Afronauts","and the Shinobi"]
 
 def band_name_gen():
     if user_genre == "Hiphop":  #when the user input is hiphop
