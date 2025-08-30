@@ -8,7 +8,7 @@ user_genre = input(f"What is your genre: Hiphop/Rock/Metal/Pop/Afrobeats: ").str
 
 #word Bank based on genre
 #Hiphop
-hh_adj = ["808", "Trap","GRP","Gremlin","Lethal","Coke","Dope","CP3","¥ve","4th Ave.","$treet","Westside","Bando","Black"]
+hh_adj = ["808", "Trap","GRP","Gremlin","Lethal","Coke","Dope","CP3","¥ve","4th Ave.","$treet","Westside","Bando","Black","City"]
 hh_name = ["Boyz","Squad","Mob","Clan","Tribe","Crew","Family","Gang","Sh00ter$"]
 
 #Rock
@@ -21,7 +21,7 @@ metal_name = ["Steel", "Spawns", "Chains","Ghouls","Skulls", "Blades", "War", "B
 
 #Pop
 pop_adj = ["Purple","Five","Velvet","Imagine","Juke","Plane","Pay","Dance","The"]
-pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","Outs","Parrots","Fare","Ferry","Hearts","Clouds","Republic","Nation"]
+pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","Outs","Parrots","Fare","Ferry","Hearts","Clouds","Republic","Nation","City"]
 pop_other = ["and the Symphony","and the Stags","and the Fairies","+ the Robots","& the wildlings","X Band"]
 
 #Afrobeat
