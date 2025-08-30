@@ -21,7 +21,7 @@ metal_name = ["Steel", "Spawns", "Chains","Ghouls","Skulls", "Blades", "War", "B
 
 #Pop
 pop_adj = ["Purple","Five","Velvet","Imagine","Juke","Plane","Pay","Dance","The"]
-pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","out","Parrots","Fare","Ferry","Hearts","Republic","Nation"]
+pop_name = ["Boys","Harmony","Rose","Major","Pluto","Knight","Box","Day","Outs","Parrots","Fare","Ferry","Hearts","Clouds","Republic","Nation"]
 pop_other = ["and the Symphony","and the Stags","and the Fairies","+ the Robots","& the wildlings","X Band"]
 
 #Afrobeat
@@ -56,7 +56,11 @@ def band_name_gen():
         noun = afbeat_name
     else:
         return "Genre not Available"
-
+  
+  # Simulate generating the band name with a loading animation
+    for i in range(101):  # Simulate 0% to 100%
+        time.sleep(0.02)  # Delay to simulate processing
+        print(f"\rGenerating your band name... [{i}%]", end="", flush=True)
     print("\nBand name generated successfully!\n")  # Move to the next line after loading completes
   
     #generate band name
