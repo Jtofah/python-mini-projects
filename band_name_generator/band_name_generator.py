@@ -3,10 +3,19 @@ import time
 
 print("Hello Welcome to the Band Name Generator..")
 user_city = input("What is the name of your city: ")
-user_genre = input(f"What is your genre: Hiphop/Rock/Metal/Pop/Afrobeats: ").strip().capitalize()
 
+valid_genres = ["Hiphop", "Rock", "Metal", "Pop", "Afrobeats"]
 
-#word Bank based on genre
+while True:
+    user_genre = input(f"What is your genre: Hiphop/Rock/Metal/Pop/Afrobeats: ").strip().capitalize()
+    
+    if user_genre not in valid_genres:
+        print("Wrong input!\nEnter a valid Genre...")
+        continue #ask again if the input is wrong
+    #break out the loop once the input is valid
+    break
+
+#create a word Bank based on genre
 #Hiphop
 hh_adj = ["808", "Trap","GRP","Gremlin","Lethal","Coke","Dope","CP3","¥ve","4th Ave.","$treet","Westside","Bando","Black","City"]
 hh_name = ["Boyz","Squad","Mob","Clan","Tribe","Crew","Family","Gang","Sh00ter$"]
@@ -56,6 +65,7 @@ def band_name_gen():
         noun = afbeat_name
     else:
         return "Genre not Available"
+
   
   # Simulate generating the band name with a loading animation
     for i in range(101):  # Simulate 0% to 100%
